@@ -1,8 +1,6 @@
-{
-  "rewrites": [
-    {
-      "source": "/((?!assets|uploads|api|favicon.ico).*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+   {
+     "rewrites": [
+       { "source": "/api/:path*", "destination": "https://captivating-courage-production-a63d.up.railway.app/api/:path*" },
+       { "source": "/uploads/:path*", "destination": "https://captivating-courage-production-a63d.up.railway.app/uploads/:path*" }
+     ]
+   }
