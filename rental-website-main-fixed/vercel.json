@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!assets|uploads|api|favicon.ico).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
